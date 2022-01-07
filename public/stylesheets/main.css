@@ -33,33 +33,39 @@ body {
     color: #05bcc9;
     font-family: Marcellus;
     font-size: 2em;
-    animation: masthead-title 3s;
-}
-
-@keyframes masthead-title {
-    from {
-        margin-left: -50%;
-    }
+    animation: masthead-btn 5s;
 }
 
 .masthead-slogan {
     color: white;
     font-family: Marcellus;
-    font-size: 1.3em;
-    animation: masthead-slogan 7s;
-
+    font-size: 2em;
+    animation: masthead-slogan 4s;
 }
 
 @keyframes masthead-slogan {
     from {
-        margin-left: -150%;
+        font-size: 0em;
     }
+}
+
+.masthead-job-title {
+    color: white;
+    font-size: 1em;
+    font-family: Marcellus;
+    animation: masthead-btn 4s;
+}
+
+.masthead-slogan > strong {
+    font-size: 2em;
+    font-family: Marcellus;
+    color: #05bcc9;
 }
 
 #masthead-btn {
     background-color: #01848d;
     border: none;
-    animation: masthead-btn 8s;
+    animation: masthead-btn 4s;
 }
 
 #masthead-btn:hover {
