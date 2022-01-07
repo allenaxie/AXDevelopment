@@ -7,6 +7,7 @@ body {
     height: 100vh;
 }
 
+/* navbar */
 .brand-name {
     font-family: Marcellus;
 }
@@ -16,13 +17,62 @@ body {
 }
 
 .navbar-brand:hover {
-    text-shadow: 1px 1px 2px #2707d8,
-    0px 0px 0.2em #0390bb,
+    text-shadow: 1px 1px 2px #06c2f1,
+    0px 0px 0.2em #0781e6,
     0px 0px 0.5em #04b8cf;
     animation: forwards;
 }
 
-/* hero card */
+/* header */
+.masthead-container {
+    background: #242424;
+    height: 100vh;
+}
+
+.masthead-title {
+    color: #05bcc9;
+    font-family: Marcellus;
+    font-size: 2em;
+    animation: masthead-title 3s;
+}
+
+@keyframes masthead-title {
+    from {
+        margin-left: -50%;
+    }
+}
+
+.masthead-slogan {
+    color: white;
+    font-family: Marcellus;
+    font-size: 1.3em;
+    animation: masthead-slogan 7s;
+
+}
+
+@keyframes masthead-slogan {
+    from {
+        margin-left: -150%;
+    }
+}
+
+#masthead-btn {
+    background-color: #01848d;
+    border: none;
+    animation: masthead-btn 8s;
+}
+
+#masthead-btn:hover {
+    background-color: #039aa5;
+}
+
+@keyframes masthead-btn {
+    from {
+        margin-left: -130%;
+    }
+}
+
+/* project card */
 .card {
     max-width: 100%;
 }
