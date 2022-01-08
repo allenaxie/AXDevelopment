@@ -7,7 +7,7 @@ body {
     height: 100vh;
 }
 
-/* navbar */
+/* ---------navbar ---------*/
 .brand-name {
     font-family: Marcellus;
 }
@@ -23,7 +23,7 @@ body {
     animation: forwards;
 }
 
-/* header */
+/* ---------header section ---------*/
 .masthead-container {
     background: #242424;
     height: 100vh;
@@ -78,9 +78,19 @@ body {
     }
 }
 
-/* project card */
+/* ---------About Me section ---------*/
+.about-me-container {
+    background: #363636;
+}
+
+
+/* about me card */
 .card {
     max-width: 100%;
+}
+
+.link {
+    color: white;
 }
 
 .row {
@@ -89,13 +99,14 @@ body {
     margin-top: 10px;
 }
 
-.project-card-title {
+.about-card-title {
     text-align: center;
     font-size: 45px;
     font-family: Orbitron;
     text-shadow: 4px 4px 4px #868686;
     margin-bottom: 15px;
     margin-top: 15px;
+    color: white;
 }
 
 /* panels */
@@ -104,11 +115,22 @@ body {
     margin-bottom: 20px;
 }
 
-.link-dark {
-    text-decoration: none;
+.tab-content {
+    color:white;
 }
 
-/* War panel */
-.war-image-1 {
-    max-width: 15em;
+/* powers */
+
+.powers-content > button {
+    margin: 5px;
+    margin-top: 20px;
+    height: 100%;
+    float: left;
+    pointer-events: none;
+    max-width: 9em;
+}
+
+.github-link {
+    color:white;
+    text-decoration: none;
 }
