@@ -207,6 +207,10 @@ form {
     margin-left: 10px;
 }
 
+#contact-message {
+    height: 7rem;
+}
+
 .contact-btn {
     cursor: pointer;
     height: 3rem;
