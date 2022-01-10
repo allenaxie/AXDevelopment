@@ -105,13 +105,18 @@
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="tab" href="#powers">Powers</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#interests">Interests</a>
+            </li>
           </ul>
 
           <!-- tab content -->
           <div class="tab-content">
             <div id="description" class="container tab-pane active mt-3">
               <p>Hi, I am Allen Xie, a full-stack software developer with a background in fitness and social services. My background has allowed me to develop strong communication and leadership skills, along with a relentless work ethic.  </p>
-  
+              <a class="github-link" href="https://github.com/allenaxie" target="_blank">
+                <span class="bi-github"></span>GitHub
+              </a>
             </div>
             <div id="powers" class="container tab-pane fade">
                 <div class="powers-content">
@@ -127,6 +132,9 @@
                   <button class="btn btn-secondary rounded-pill">Python</button>
                   <button class="btn btn-secondary rounded-pill">Node.js</button>
                 </div>
+            </div>
+            <div id="interests" class="container tab-pane fade">
+              <p></p>
             </div>
           </div>
         </div>
@@ -171,7 +179,6 @@
           </div>
           <div class="col"></div>
         </div>
-      
     </div>
       
     <!-- Contact Me -->
@@ -181,26 +188,27 @@
         <h1 id="contact-title" class="col">Contact Me</h1>
       </div>
         <div class="col-2"></div>
-        <form class="col-8">
+        <form class="col-8" action="https://formspree.io/f/mlezdyvg"
+        method="POST">
           <div class="row">
             <div class="mb-3 form-floating col">
-              <input type="name" class="form-control" placeholder="Hey 👋, what's your name?" required></input>
+              <input name="name" class="form-control" placeholder="Hey 👋, what's your name?" required></input>
               <label class="temp-text"> Hey 👋, what's your name?"</label>
             </div>
           </div>
           <div class="row">
             <div class="mb-3 form-floating col">
-              <input type="email" class="form-control" placeholder="email" required></input>
+              <input name="email" class="form-control" placeholder="email" required></input>
               <label class="temp-text"> Email?</label>
             </div>
             <div class="mb-3 form-floating col">
-              <input type="phone-number" class="form-control" placeholder="phone number"></input>
+              <input name="phone-number" class="form-control" placeholder="phone number"></input>
               <label class="temp-text"> Phone number?</label>
             </div>
           </div>
           <div class="row">
             <div class="mb-3 form-floating col">
-              <textarea type="message" id="contact-message" class="form-control" rows="5" placeholder="message" required></textarea>
+              <textarea name="message" id="contact-message" class="form-control" rows="5" placeholder="message" required></textarea>
               <label class="temp-text"> What's on your mind?</label>
             </div>
           </div>
