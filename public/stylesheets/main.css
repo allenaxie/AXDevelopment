@@ -16,12 +16,13 @@ body {
     font-family: Marcellus;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover,.nav-link:hover {
     text-shadow: 1px 1px 2px #06c2f1,
     0px 0px 0.2em #0781e6,
     0px 0px 0.5em #04b8cf;
-    animation: forwards;
 }
+
+
 
 /* ---------header section ---------*/
 .masthead-container {
@@ -96,12 +97,6 @@ body {
     border-width: 0px 0px 5px 5px;
     border-color:rgb(54, 231, 208);
     box-shadow: #0781e6;
-    box-shadow: 
-    0 2px 4px -1px rgb(0 0 0/ 20%),
-    0 4px 5px 0 rgb(0 0 0 / 14%), 
-    0 1px 10px 0 rgb(0 0 0 / 12%);
-    box-sizing: border-box;
-    border-top: 2px solid #05bcc9;
 }
 
 .about-card-title {
