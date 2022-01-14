@@ -7,6 +7,31 @@ body {
     height: 100vh;
 }
 
+/* Floating circles */
+.floaters {
+    position: absolute;
+    opacity: 15%;
+    display:none;
+}
+
+.bi-circle {
+    animation: 9s linear 0s infinite alternate none running y;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#039aa5 0%, #06c2f1 100%);
+    border-radius: 50%;
+}
+
+@keyframes x {
+    100% { transform: translateX(calc(98vw - 100px));
+    }
+}
+@keyframes y {
+    100% { transform: translateY(calc(100vh - 100px));
+    }
+}
+
+
 /* ---------navbar ---------*/
 .brand-name {
     font-family: Marcellus;
@@ -27,7 +52,7 @@ body {
 /* ---------header section ---------*/
 .masthead-container {
     background: #242424;
-    height: 100vh;
+    height: 95vh;
 }
 
 .masthead-title {
@@ -88,7 +113,6 @@ body {
 /* about me card */
 .card {
     max-width: 100%;
-    
 }
 
 .profile-pic {
@@ -127,7 +151,7 @@ body {
 
 /* powers */
 
-.powers-content > button {
+.skills-content > button {
     margin: 5px;
     margin-top: 20px;
     height: 100%;
@@ -171,6 +195,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background: #1f1f1f;
 }
 
 .project-card-body {
