@@ -183,9 +183,9 @@ body {
 
 .project-card {
     padding: 0px;
-    margin-left: 15px;
-    margin-bottom: 30px;
+    max-height: 60vh;
     background: #1b1b1b;
+    margin-bottom: 3rem;
 }
 
 .project-img {
