@@ -89,6 +89,7 @@ body {
 }
 
 #masthead-btn {
+    width: 200px;
     background-color: #01848d;
     border: none;
     animation: masthead-btn 4s;
@@ -102,6 +103,17 @@ body {
     from {
         margin-left: -130%;
     }
+}
+
+.emoji {
+    font-size: 10rem;
+    margin-top: 7rem;
+}
+
+.emoji-container {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* ---------About Me section ---------*/
