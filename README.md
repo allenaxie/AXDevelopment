@@ -26,4 +26,4 @@ I am a full-stack developer and I’m passionate about building innovative produ
 
 ## Next Steps
 
-- AAU, I want to be able to view other users' teams.
+
